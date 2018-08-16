@@ -7,12 +7,11 @@
  */
  class Foo
  {
-    private $var;
     private $name = null;
     
-    public function __construct()
+    public function __construct($name)
     {
-        //        
+        $this->name = $name;
     }
     
     public function getName()
