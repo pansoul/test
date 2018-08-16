@@ -7,6 +7,7 @@
  */
  class Foo
  {
+    private $var;
      
     public function __construct()
     {
