@@ -9,7 +9,7 @@
  {
     private $name = null;
     
-    public function __construct($name = 'Some Default')
+    public function __construct($name = 'Some Default 1')
     {
         $this->name = $name;
     }
