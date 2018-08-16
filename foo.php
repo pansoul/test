@@ -7,10 +7,17 @@
  */
  class Foo
  {
+    
+    private $name = null;
      
     public function __construct()
     {
         //        
+    }
+    
+    public function getName()
+    {
+        return $this->name;        
     }
     
  }
