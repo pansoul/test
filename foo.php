@@ -19,4 +19,9 @@
         return $this->name;        
     }
     
+    public function foo()
+    {
+        return "Do something";
+    }
+    
  }
