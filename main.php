@@ -35,6 +35,7 @@ abstract class CAllMain
 	var $arPagePropertiesChanger = array();
 	var $arDirProperties = array();
 	var $sLastError;
+	var $newErr;
 
 	/** @var Asset */
 	public $oAsset;
